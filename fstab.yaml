@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: https://author-p29660-e1641662.adobeaemcloud.com//bin/franklin.delivery/AdobeDevXSC/geico-lab/main
+    url: https://author-p29660-e1641662.adobeaemcloud.com/bin/franklin.delivery/AdobeDevXSC/geico-lab/main
     type: markup
     suffix: ".html?wcmmode=disabled"
