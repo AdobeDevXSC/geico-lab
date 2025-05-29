@@ -296,7 +296,7 @@
         "component": "text-area",
         "name": "quote",
         "value": "",
-        "label": "Quote",
+        "label": "My Quote",
         "valueType": "string"
       },
       {
