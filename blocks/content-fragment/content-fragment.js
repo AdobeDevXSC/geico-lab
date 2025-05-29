@@ -1,6 +1,6 @@
 // put your AEM publish address here
-const aem_publish = "https://publish-p131639-e1282833.adobeaemcloud.com";
-const AEM_HOST = checkDomain()
+const aem_publish = "https://author-p29660-e1641662.adobeaemcloud.com/";
+const AEM_HOST = checkDomain();
 
 function checkDomain(){
   if (window.location.hostname.includes("hlx.page") || window.location.hostname.includes("hlx.live") || window.location.hostname.includes("localhost")){
@@ -24,7 +24,7 @@ export default function decorate(block) {
   adventureDiv.id = "adventure-" + slug; 
   quoteDiv.replaceWith(adventureDiv);
 
-fetch(AEM_HOST + '/graphql/execute.json/aem-demo-assets/adventure-by-slug;slug=' + slug)
+fetch(AEM_HOST + '/graphql/execute.json/aem-demo-assets/adventure-by-slug;slug=' + slug, { credentials: 'include' })
 .then(response => response.json())
 .then(response => {
 

@@ -164,7 +164,7 @@
     "id": "teaser",
     "fields": [
       {
-        "component": "reference",
+        "component": "aem-reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
