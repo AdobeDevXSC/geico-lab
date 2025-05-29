@@ -113,6 +113,7 @@ function buildTabs(main) {
       }));
     const tabsBlock = buildBlock('tabs', [[ul]]);
     section.append(tabsBlock);
+    console.log(tabs[0]);
     tabs[0][0].insertAdjacentElement('beforebegin', section);
   }
 }
