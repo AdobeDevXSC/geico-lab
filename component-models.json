@@ -164,7 +164,7 @@
     "id": "teaser",
     "fields": [
       {
-        "component": "aem-reference",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
@@ -214,11 +214,9 @@
     "id": "featured-article",
     "fields": [
       {
-        "component": "text-input",
+        "component": "aem-content",
         "name": "reference",
-        "value": "",
-        "label": "Reference",
-        "valueType": "string"
+        "label": "Fragment Reference"
       }
     ]
   },
