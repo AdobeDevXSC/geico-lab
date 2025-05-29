@@ -293,6 +293,13 @@
     "id": "quote",
     "fields": [
       {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
         "component": "text-area",
         "name": "quote",
         "value": "",
