@@ -1,6 +1,7 @@
 {
   "mappings": [
     "/content/geico-lab/:/",
+    "/content/geico-lab/configuration:/.helix/config.json",
     "/content/geico-lab/metadata.json:/metadata.json",
     "/content/geico-lab/redirects.json:/redirects.json"
   ]
